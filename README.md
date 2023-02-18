@@ -42,3 +42,5 @@ US5: As an “admin" user, I want to see a button to edit locations in the array
 so that I can edit existing locations
 US6: As an “admin" user, I want to see a button to delete locations in the array of
 locations so that I can delete existing locations
+
+Log in as an admin : eyaadmin/eyaadmin
