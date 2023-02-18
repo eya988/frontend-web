@@ -12,9 +12,11 @@
     <div>
       <button @click="previousPage">Previous</button>
       <button @click="nextPage">Next</button>
+        <br> <br> <br>
+      <div v-if="role === 'admin'">
 
-        <button @click="addLocation">Add Location</button>
-
+      <button @click="addLocation">Add Location</button>
+      </div>
     </div>
   </div>
 

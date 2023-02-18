@@ -30,8 +30,10 @@
     </table>
   </div>
   <div>
+    <div v-if="role === 'admin'">
     <button @click="editLocation(locationId)">Edit</button>
     <button @click="deleteLocation">Delete</button>
+      </div>
   </div>
 </template>
 <add key="webpages:Enabled" value="true" />
